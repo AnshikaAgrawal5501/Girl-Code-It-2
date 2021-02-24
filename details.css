@@ -29,30 +29,18 @@ body {
     color: grey;
 }
 
-.about1, .dhead1 {
-    padding: 20px;
-    text-align: center;
-    margin: 75px auto 25px auto;
+.details {
+    margin: 75px auto 75px auto;
 }
-.about2 {
-    padding: 20px;
-    margin: auto;
-    text-align: center;
-}
-#about>.row {
-    margin-bottom: 75px;
-}
-
 .dhead {
-    margin-bottom: 50px;
+    margin-bottom: 40px;
 }
 .dpara {
-    margin: auto;
+    margin: auto auto 75px 30px;
 }
-
-.para1 {
-    margin: 50px auto 25px 20px;
+.doubt {
+    margin-left: 20px;
 }
-.button1 {
-    margin: 0px auto 75px 20px;
+.image {
+    margin-bottom: 50px;
 }
