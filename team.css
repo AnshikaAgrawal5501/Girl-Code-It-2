@@ -3,7 +3,7 @@ body {
 }
 
 .navbar {
-    box-shadow: 0px 5px 7px rgba(0, 0, 0, 0.5);
+    box-shadow: 0px 3px 7px rgba(0, 0, 0, 0.3);
 }
 .nav-link {
     color: whitesmoke;
@@ -47,4 +47,13 @@ body {
 
 .card:hover {
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+.last {
+    margin-bottom: 50px;
+}
+
+.icons {
+    color:black !important;
+    font-size:24px !important;
+    margin: auto 5px auto 5px;
 }
