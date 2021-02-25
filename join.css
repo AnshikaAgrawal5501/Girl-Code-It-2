@@ -2,22 +2,6 @@ body {
     margin: 0;
 }
 
-.head2 {
-    font-size: 60px;
-    font-weight: bolder;
-    text-align: end;
-}
-
-.head1 {
-    height: 150px;
-    width: 170px;
-}
-
-.head3 {
-    font-size: 25px;
-    font-weight: lighter;
-}
-
 .navbar {
     box-shadow: 0px 5px 7px rgba(0, 0, 0, 0.5);
 }
@@ -27,4 +11,13 @@ body {
 }
 .nav-link:hover {
     color: grey;
+}
+
+.heading {
+    text-align: center;
+    margin: 75px auto 50px auto;    
+}
+
+.button1 {
+    margin-bottom: 50px;
 }

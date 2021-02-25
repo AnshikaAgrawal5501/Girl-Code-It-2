@@ -3,7 +3,7 @@
     <head>
         <title>Girl Code It - Team</title>
         <link rel="icon" href="logo/gcilogo.png">
-        <link rel="Stylesheet" href="team.css">
+        <link rel="Stylesheet" href="join.css">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
@@ -13,23 +13,18 @@
 
     <body>
 
-        <div class="jumbotron jumbotron-fluid p-3 my-0 d-flex justify-content-between"> 
-            <div class="container-fluid ">
-                <div class="col-md-6"><img class="head1 float-left" src="logo/gcilogo.png" alt="GCI logo"></div>
-                <div class="head2 float-right col-md-6">Girl Code It<div class="head3">&lt; From Will to Skill /&gt;</div></div>
-            </div>            
-        </div>
-
-
         <nav class="navbar navbar-expand-md bg-dark navbar-dark sticky-top ">
 
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
                 <span class="navbar-toggler-icon"></span>
             </button>
 
-            <div class="collapse navbar-collapse justify-content-end" id="collapsibleNavbar">
-                <div class="nav-item"><a class="nav-link" href="#about">About</a></div>
-                <div class="nav-item"><a class="nav-link" href="#details">Details</a></div>
+            <div class="collapse navbar-collapse justify-content-between" id="collapsibleNavbar">
+                <div class="nav-item"><a class="nav-link" href="index.html" style="font-size: 35px; padding-top: 0px; padding-bottom: 0px;">Girl Code It</a></div>
+
+                <div class="d-flex flex-row">
+                    <div class="nav-item"><a class="nav-link" href="index.html#about">About</a></div>
+                <div class="nav-item"><a class="nav-link" href="index.html#details">Details</a></div>
 
                 <div class="nav-item dropdown"><a class="nav-link dropdown-toggle" data-toggle="dropdown" >Courses</a>
                 <div class="dropdown-menu">
@@ -46,8 +41,106 @@
                 <div class="nav-item"><a class="nav-link" href="team.html">Team</a></div>
                 <div class="nav-item"><a class="nav-link" href="join.html">Join</a></div>
                 <div class="nav-item"><a class="nav-link" href="#connect">Connect</a></div>
+                </div>
+                
             </div>
         </nav>
+
+        <div class="container">
+
+            <h1 class="display-4 font-weight-normal heading">Join Us</h1>
+
+            <form action="index.html">
+
+                <label for="name">Name :</label>
+                <div class="form-row"> 
+                    <div class="form-group col-md-6">
+                        <input type="text" class="form-control" placeholder="Fisrt Name" id="name" required>
+                    </div>
+                    <div class="form-group col-md-6">
+                        <input type="text" class="form-control" placeholder="Second Name" id="name">
+                    </div>
+                </div>
+                <div class="form-row">
+                    <div class="form-group col-sm-6">
+                        <label for="email">Email address :</label>
+                        <input type="email" class="form-control" placeholder="name@example.com" id="email" required>
+                    </div>
+                    <div class="form-group col-sm-6">
+                        <label for="contact">Contact Number :</label>
+                        <input type="text" class="form-control" placeholder="Contact" id="contact" required>
+                    </div>
+                  
+                </div>
+
+                <div class="form-group">
+                    <label>Course :</label>
+                
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                        <label class="form-check-label" for="defaultCheck1"> Basic C++</label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="defaultCheck2">
+                        <label class="form-check-label" for="defaultCheck2"> Basic Java</label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="defaultCheck3">
+                        <label class="form-check-label" for="defaultCheck3"> Data Structure and Algorithm C++</label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="defaultCheck4">
+                        <label class="form-check-label" for="defaultCheck4"> Data Structure and Algorithm Java</label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="defaultCheck5">
+                        <label class="form-check-label" for="defaultCheck5"> Frontend and Backend Development</label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="defaultCheck6">
+                        <label class="form-check-label" for="defaultCheck6"> React JS</label>
+                    </div>
+                    
+                </div>
+
+                <div class="form-group">
+                    <label for="college">College Name :</label>
+                    <input type="text" class="form-control" id="college" required>
+                </div>
+
+                <div class="form-row">
+                    <div class="form-group col-md-4">
+                        <label for="degree">Degree :</label>
+                        <input type="text" class="form-control" id="degree" required>
+                    </div>
+                    <div class="form-group col-md-4">
+                        <label for="branch">Branch :</label>
+                        <input type="text" class="form-control" id="branch" required>
+                    </div>
+                    <div class="form-group col-md-4">
+                        <label for="year">Year :</label>
+                        <input type="text" class="form-control" id="year" required>
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label for="text">Tell us something about you.</label>
+                    <textarea class="form-control"rows="3" id="text" placeholder="Your hobbies, skills, qualifications, etc."></textarea>
+                </div>
+
+                <div class="form-group form-check">
+                    <label class="form-check-label">
+                      <input class="form-check-input" type="checkbox" required> Will obey all the rules.
+                    </label>
+                </div>
+
+                <div class="form-row button1">
+                    <button type="reset" class="form-group btn btn-outline-primary mr-3">Reset</button>
+                    <button type="submit" class="form-group btn btn-outline-primary" >Submit</button>
+                </div>
+                
+              </form>
+        </div>
 
     </body>
 </html>
