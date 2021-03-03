@@ -39,3 +39,11 @@ body {
     font-size:20px !important;
     margin: auto 5px auto 5px;
 }
+
+/* Small (sm) devices (landscape phones, 576px and up) */
+@media (max-width: 576px) {
+    .display-4, .contact{
+        font-size: 300%  !important;
+        text-align: center;
+    }
+}

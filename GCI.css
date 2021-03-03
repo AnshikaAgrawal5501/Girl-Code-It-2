@@ -91,3 +91,17 @@ body {
     font-size:20px !important;
     margin: auto 5px auto 5px;
 }
+
+/* Small (sm) devices (landscape phones, 576px and up) */
+@media (max-width: 576px) {
+    .display-3, .display-4, .contact, .head2{
+        font-size: 200%  !important;
+    }
+}
+
+/* Medium (md) devices (tablets, 768px and up) */
+@media (min-width: 577px) and (max-width: 768px) {
+    .display-3, .display-4{
+        font-size: 350% !important;
+    }
+}

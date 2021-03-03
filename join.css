@@ -32,3 +32,9 @@ body {
     font-size:20px !important;
     margin: auto 5px auto 5px;
 }
+
+@media (max-width: 576px) {
+    .contact{
+        font-size: 200%  !important;
+    }
+}
