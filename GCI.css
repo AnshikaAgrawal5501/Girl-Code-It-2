@@ -20,6 +20,7 @@ body {
 
 .navbar {
     box-shadow: 0px 3px 7px rgba(0, 0, 0, 0.3);
+    position: -webkit-sticky;
 }
 .nav-link {
     color: whitesmoke;
@@ -103,5 +104,19 @@ body {
 @media (min-width: 577px) and (max-width: 768px) {
     .display-3, .display-4{
         font-size: 350% !important;
+    }
+    
+}
+
+@media (min-width: 577px) and (max-width: 1200px) {
+    .course {
+        margin-left: 0 !important;
+        margin-right: 0 !important;
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+        max-width: 100% !important;
+    }
+    .card {
+        width: 15rem !important;
     }
 }
